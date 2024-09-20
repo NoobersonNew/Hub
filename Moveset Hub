@@ -29,6 +29,13 @@ local Window = Rayfield:CreateWindow({
 local IYTab = Window:CreateTab("🎮Infinity Yield & others🎮", nil) -- Title, Image
 local IYSection = IYTab:CreateSection("If the scripts bugs, use this script and type Rejoin to fix it; and this is a good script, use it")
 
+local Button = IYTab:CreateButton({
+   Name = "Infinity Yield",
+   Callback = function()
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
+
 local TSHTab = Window:CreateTab("👊The Strogest Hero/Saitama👊", nil) -- Title, Image
 local TSHSection = TSHTab:CreateSection("Movesets")
 
