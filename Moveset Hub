@@ -76,13 +76,6 @@ local Button = TSHTab:CreateButton({
 })
 
 local Button = TSHTab:CreateButton({
-   Name = "KJ",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/kJ%20Moveset%20V2%20by%20camerawoman"))()
-   end,
-})
-
-local Button = TSHTab:CreateButton({
    Name = "Mixed Powers",
    Callback = function()
        loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
@@ -93,13 +86,6 @@ local Button = TSHTab:CreateButton({
    Name = "Yuji Itadori X Sukuna",
    Callback = function()
        loadstring(game:HttpGet('https://pastebin.com/raw/1yaXL0rA'))()
-   end,
-})
-
-local Button = TSHTab:CreateButton({
-   Name = "Sukuna",
-   Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/gUrBYsGK"))()
    end,
 })
 
@@ -117,13 +103,6 @@ local Button = HHTab:CreateButton({
    Name = "OP Goku",
    Callback = function()
        loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()
-   end,
-})
-
-local Button = HHTab:CreateButton({
-   Name = "Jotaro Kujo, with voice lines!",
-   Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/h8h88/dfgfdvdf/main/eeeee"))()
    end,
 })
 
