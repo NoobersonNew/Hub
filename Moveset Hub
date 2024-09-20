@@ -36,6 +36,13 @@ local Button = IYTab:CreateButton({
    end,
 })
 
+local Button = IYTab:CreateButton({
+   Name = "Velocity Moves",
+   Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/S47nEM11"))()
+   end,
+})
+
 local TSHTab = Window:CreateTab("👊The Strogest Hero/Saitama👊", nil) -- Title, Image
 local TSHSection = TSHTab:CreateSection("Movesets")
 
@@ -68,6 +75,33 @@ local Button = TSHTab:CreateButton({
    end,
 })
 
+local Button = TSHTab:CreateButton({
+   Name = "KJ",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/kJ%20Moveset%20V2%20by%20camerawoman"))()
+   end,
+})
+
+local Button = TSHTab:CreateButton({
+   Name = "Mixed Powers",
+   Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
+   end,
+})
+
+local Button = TSHTab:CreateButton({
+   Name = "Yuji Itadori X Sukuna",
+   Callback = function()
+       loadstring(game:HttpGet('https://pastebin.com/raw/1yaXL0rA'))()
+   end,
+})
+
+local Button = TSHTab:CreateButton({
+   Name = "Sukuna",
+   Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/gUrBYsGK"))()
+   end,
+})
 
 local HHTab = Window:CreateTab("💧Hero Hunter/Garou💧", nil) -- Title, Image
 local HHSection = HHTab:CreateSection("Movesets")
@@ -83,6 +117,13 @@ local Button = HHTab:CreateButton({
    Name = "OP Goku",
    Callback = function()
        loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()
+   end,
+})
+
+local Button = HHTab:CreateButton({
+   Name = "Jotaro Kujo, with voice lines!",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/h8h88/dfgfdvdf/main/eeeee"))()
    end,
 })
 
@@ -120,9 +161,16 @@ local BMTab = Window:CreateTab("⚔️Blade Master/Atomic Samurai⚔️", nil) -
 local BMSection = BMTab:CreateSection("Movesets")
 
 local Button = BMTab:CreateButton({
-   Name = "This moveset has noting...",
+   Name = "Sukuna",
    Callback = function()
-    
+       loadstring(game:HttpGet("https://pastebin.com/raw/gUrBYsGK"))()
+   end,
+})
+
+local Button = BMTab:CreateButton({
+   Name = "Toji Zenin",
+   Callback = function()
+       loadstring(game:HttpGet('https://pastebin.com/raw/VQnyWP5D'))()
    end,
 })
 
@@ -145,4 +193,3 @@ local Button = MATab:CreateButton({
     
    end,
 })
-
