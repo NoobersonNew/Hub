@@ -130,9 +130,10 @@ local BDTab = Window:CreateTab("🏏Brutal Demon/Metal Bat🏏", nil) -- Title, 
 local BDSection = BDTab:CreateSection("Movesets")
 
 local Button = BDTab:CreateButton({
-   Name = "This moveset has noting...",
+   Name = "Apophenia/Reaper",
    Callback = function()
-    
+    getgenv().Music = false
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
    end,
 })
 
