@@ -132,8 +132,8 @@ local BDSection = BDTab:CreateSection("Movesets")
 local Button = BDTab:CreateButton({
    Name = "Apophenia/Reaper",
    Callback = function()
-    getgenv().Music = false
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+       getgenv().Music = false
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
    end,
 })
 
